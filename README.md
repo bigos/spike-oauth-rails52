@@ -14,3 +14,23 @@ http://accounts:3001
 http://client:3002
 
 Cadastre a aplicação no accounts e atualize o docker-compose.yml antes de começar!
+
+# Translation
+
+Since you're using Docker, communication between apps is tricky. In short, they
+are known by the names of the accounts and client services. Each has a specific
+port.
+
+For everything to be standard and less messy, put it in the / etc / hosts of
+your host machine:
+
+127.0.0.1 accounts client
+
+And be careful to always access in the browser:
+
+http: // accounts: 3001
+
+http: // client: 3002
+
+Register the application on accounts and update docker-compose.yml before you
+start!
