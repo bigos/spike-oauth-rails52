@@ -4,7 +4,7 @@ module OmniAuth
       option :name, "webgoal"
 
       option :client_options, {
-        :site => "http://oauthprovider:3001"
+        :site => "http://127.0.0.1:3001"
       }
 
       uid { raw_info["id"] }
