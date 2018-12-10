@@ -1,1 +1,1 @@
-rvm --create ruby-2.5.1@client-app
+rvm --create ruby-2.4.4@client-app
